@@ -19,9 +19,9 @@ public class TestInvoice {
 
   //Ask if user wants to view the invoices or enter data
   System.out.println("Do you want to:");
-  System.out.println("1- Print the invoice only? Please hit \"p key");
-  System.out.println("2- Add new invoices only? Please hit \"I key");
-  System.out.println("3- Print the invoice, then add new invoices then print them? Please hit \"A key");
+  System.out.println("1- Print the invoice only? Please hit \"p\" key");
+  System.out.println("2- Add new invoices only? Please hit \"I\" key");
+  System.out.println("3- Print the invoice, then add new invoices then print them? Please hit \"A\" key");
   Scanner sc=new Scanner(System.in);
   String userInput=sc.next().toLowerCase();
   switch (userInput){
