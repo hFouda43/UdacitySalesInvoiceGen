@@ -9,8 +9,8 @@ import java.util.List;
 
 
 public class FileOperations {
-   private String invoiceHeaderFilePath = "src/InvoiceHeader.csv";
-   private String invoiceLineFilePath = "src/InvoiceLine.csv";
+   private String invoiceHeaderFilePath = "src/com/udacity/salesinvoicegenerator/InvoiceHeader.csv";
+   private String invoiceLineFilePath = "src/com/udacity/salesinvoicegenerator/InvoiceLine.csv";
    private File invoiceHeadersFilePathCheck = new File(invoiceHeaderFilePath);
    private File invoiceLinesFilePathCheck = new File(invoiceLineFilePath);
     final static String date_Format = "dd-MM-yyyy";
